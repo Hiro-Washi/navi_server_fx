@@ -4,6 +4,8 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp" //------------
+#include "std_msgs/msg/string.hpp"
+//#include "geometry_msgs/msg/pose_stamped.hpp"
 #include "nav2_msgs/action/navigate_to_pose.hpp"
 #include "rclcpp/time.hpp" //-------------------------
 
@@ -17,6 +19,24 @@ using std::placeholders::_2;//_1,_2,_Nは、bind()で使用するプレースホ
 class NaviLocationServer2 : public rclcpp::Node
 {
 public:
+  NaviLocationServer2()
+  : Node("navi2_location_acserver")
+{
+  auto goal_option=
+  rclcpp_action::Client
+}
+
+
+
+
+
+
+
+
+
+
+
+
   // Instance of necessary types
   using Navi2Pose = nav2_msgs::action::NavigateToPose;
   using N2P_GOAL_HANDLE= rclcpp_action::ClientGoalHandle<Navi2Pose>;
@@ -29,6 +49,8 @@ public:
     this->ac_client = rclcpp_action::create_client<NaviToPose>(this,"navi2pose_client");
   }
   
+  void init(); // Subscriber, publisher
+
   // type????
   void searchLocationName();
 

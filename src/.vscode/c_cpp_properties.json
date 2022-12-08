@@ -1,0 +1,63 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hiroto/foxy_ws/install/turtlebot3_fake_node/include/**",
+        "/home/hiroto/foxy_ws/install/turtlebot3_msgs/include/**",
+        "/home/hiroto/foxy_ws/install/turtlebot3_gazebo/include/**",
+        "/home/hiroto/foxy_ws/install/nav_2d_utils/include/**",
+        "/home/hiroto/foxy_ws/install/dwb_msgs/include/**",
+        "/home/hiroto/foxy_ws/install/nav_2d_msgs/include/**",
+        "/home/hiroto/foxy_ws/install/nav2_waypoint_follower/include/**",
+        "/home/hiroto/foxy_ws/install/nav2_voxel_grid/include/**",
+        "/home/hiroto/foxy_ws/install/nav2_lifecycle_manager/include/**",
+        "/home/hiroto/foxy_ws/install/nav2_util/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/hiroto/foxy_ws/src/dev/ac_fox/include/**",
+        "/home/hiroto/foxy_ws/src/dev/navi_server_fx/include/**",
+        "/home/hiroto/foxy_ws/src/dev/srv_foxy/include/**",
+        "/home/hiroto/foxy_ws/src/dev/wh_func2/everyweek2/cpp_teleop/include/**",
+        "/home/hiroto/foxy_ws/src/dev/wh_func2/everyweek2/test/node_class_test/include/**",
+        "/home/hiroto/foxy_ws/src/dev/wh_func2/everyweek2/timer/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_amcl/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_behavior_tree/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_bt_navigator/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_controller/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_core/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_costmap_2d/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_dwb_controller/costmap_queue/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_dwb_controller/dwb_core/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_dwb_controller/dwb_critics/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_dwb_controller/dwb_plugins/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_dwb_controller/nav_2d_utils/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_lifecycle_manager/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_map_server/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_navfn_planner/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_planner/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_recoveries/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_regulated_pure_pursuit_controller/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_rviz_plugins/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_util/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_voxel_grid/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/nav2_waypoint_follower/include/**",
+        "/home/hiroto/foxy_ws/src/external/navigation2/smac_planner/include/**",
+        "/home/hiroto/foxy_ws/src/machines/turtlebot3_pkg/turtlebot3/turtlebot3_node/include/**",
+        "/home/hiroto/foxy_ws/src/machines/turtlebot3_pkg/turtlebot3_simulations/turtlebot3_fake_node/include/**",
+        "/home/hiroto/foxy_ws/src/machines/turtlebot3_pkg/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/hiroto/foxy_ws/src/train/hello_pkg/include/**",
+        "/home/hiroto/foxy_ws/src/train/langage/learn_cpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
